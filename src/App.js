@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { Navbar, Slogan, Content } from './components'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className='font-sora overflow-y-auto overflow-x-hidden h-screen px-4 py-8 bg-gradient-to-b from-purple-900 to-purple-700 text-white'>
+        <Navbar />
+        <Slogan />
+        <Content />
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
