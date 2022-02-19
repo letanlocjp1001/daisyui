@@ -9,12 +9,12 @@ const Slogan = () => {
           Earn <span className='text-purple-300'>More</span>
         </p>
         <p className=''>Pay Less</p>
-        <button className=' btn btn-secondary text-16 font-bold hover:bg-pink-500 md:text-25 md:px-8'>
+        <button className='btn btn-secondary text-16 font-bold z-50 hover:bg-pink-500 md:text-25 md:px-8 '>
           Start
         </button>
       </div>
-      <div className='mt-16 md:absolute md:right-[-5rem]'>
-        <img src={Cards} alt='card' />
+      <div className='mt-16 md:absolute md:right-[-5rem] '>
+        <img src={Cards} alt='card' className='z-0' />
       </div>
     </section>
   )
